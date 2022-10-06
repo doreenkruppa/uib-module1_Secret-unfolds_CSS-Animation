@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 2px;
+  background-color: white;
+  position: relative;
+  transition: all 1s ease;
+}
+
+main:hover .box1 {
+  transform: translate(-200%, -100%) rotate(90deg);
+}
+main:hover .box2 {
+  transform: translate(100%, -100%) rotate(-90deg);
+}
+main:hover .box3 {
+  transform: translate(100%) rotate(90deg);
+}
+main:hover .box4 {
+  transform: translate(-200%) rotate(-90deg);
+}
+
+.message {
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  font-size: 4rem;
+  text-align: center;
+  padding-top: 180px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.boxes {
+  width: 200px;
+  height: 200px;
+}
+.box1 {
+  background-color: steelblue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -100%);
+  transition: all 2s ease;
+}
+
+.box2 {
+  background-color: dimgray;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, -100%);
+  transition: all 2s ease;
+}
+.box3 {
+  background-color: rosybrown;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 2s ease;
+}
+.box4 {
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%);
+  transition: all 2s ease;
+}
