@@ -14,7 +14,6 @@ main {
   margin-top: 2px;
   background-color: white;
   position: relative;
-  transition: all 1s ease;
 }
 
 main:hover .box1 {
