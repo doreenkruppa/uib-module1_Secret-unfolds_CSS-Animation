@@ -1,4 +1,4 @@
-# Secret Unfolds - Animation
+# Secret Unfolds - CSS-Animation
 
 ## Exercise Course-Module 1 - UserInterfaceBasics (UIB) - HTML/CSS
 
