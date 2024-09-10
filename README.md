@@ -1,21 +1,9 @@
-# Secret Unfolds
+# Secret Unfolds - Animation
 
-Create an animation that works like the example shown below.
+## Exercise Course-Module 1 - UserInterfaceBasics (UIB) - HTML/CSS
+
+Created an animation oriented to the reference gif below; using `transform`, `relative` and `absolute` positioning & `transition-delay`
 
 ![secret](secret-unfolds.gif)
 
-### Requirements
-- Create four square boxes
-- The boxes should use the background colors `steelblue`, `dimgray`, `rosybrown`, `yellow`
-
-### Tips
-- `transform`
-- `relative` and `absolute` positioning will be useful here
-
-### Bonus!
-
-- Try altering the animation by adding four additional boxes
-
-- Experiment with `transition-delay`
-
-Good luck and have fun!
+31.10.22

@@ -7,11 +7,21 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  width: 100%;
+  font-size: 3vh;
+  text-align: center;
+  color: black;
+  padding: 20px;
 }
 main {
-  width: 100vw;
-  height: 100vh;
-  margin-top: 2px;
+  width: 80vw;
+  height: 80vh;
   background-color: white;
   position: relative;
 }
@@ -44,36 +54,26 @@ main:hover .box4 {
 .boxes {
   width: 200px;
   height: 200px;
-}
-.box1 {
-  background-color: steelblue;
   position: absolute;
   top: 50%;
   left: 50%;
+  transition: all 1s ease;
+}
+.box1 {
+  background-color: steelblue;
   transform: translate(-100%, -100%);
-  transition: all 2s ease;
 }
 
 .box2 {
   background-color: dimgray;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+
   transform: translate(0, -100%);
-  transition: all 2s ease;
 }
 .box3 {
   background-color: rosybrown;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transition: all 2s ease;
 }
 .box4 {
   background-color: yellow;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+
   transform: translate(-100%);
-  transition: all 2s ease;
 }
