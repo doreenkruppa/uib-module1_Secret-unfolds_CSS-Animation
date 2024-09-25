@@ -12,5 +12,5 @@ Created an animation oriented to the reference gif below; using `transform`, `re
 
 ### My Version
 
-![my version](my-version.png)
-![my version](my-version.gif)
+![my version](my_version.png)
+![my version](my_version.gif)
